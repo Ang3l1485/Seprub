@@ -41,7 +41,7 @@ Objetos y cantidad de objetos de datos:
     background: #FFF;
 }
 
-.shadow-w-button {
+.shadow-white-button {
     width: 363px;
     height: 196px;
     border-radius: 100px 10px 100px 50px;
