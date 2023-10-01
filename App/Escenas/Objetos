@@ -34,10 +34,4 @@
     background: #3FE489;
 }
 
-.logo {
-    width: 600px;
-    height: 600px;
-    border-radius: 1000px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
 
