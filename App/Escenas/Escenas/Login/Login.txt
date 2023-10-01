@@ -1,0 +1,49 @@
+Objetos y cantidad de objetos de Login.png:
+
+.BG {
+    width: 1080px;
+    height: 1960px;
+    background: #7AFF85;
+}
+
+.subBgLogin {
+    width: 990px;
+    height: 1265px;
+    border-radius: 40px;
+    background: #5BF585;
+}
+
+.input-white-button-login-1 {
+    width: 585px;
+    height: 210px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.input-white-button-login-2 {
+    width: 585px;
+    height: 210px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.input-shadow-button-login-1 {
+    width: 585px;
+    height: 210px;
+    border-radius: 100px 10px 100px 50px;
+    background: #3FE489;
+}
+
+.input-shadow-button-login-2 {
+    width: 585px;
+    height: 210px;
+    border-radius: 100px 10px 100px 50px;
+    background: #3FE489;
+}
+
+.input-shadow-button-login-3 {
+    width: 585px;
+    height: 210px;
+    border-radius: 100px 10px 100px 50px;
+    background: #3FE489;
+}
