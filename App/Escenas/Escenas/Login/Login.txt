@@ -13,35 +13,35 @@ Objetos y cantidad de objetos de Login.png:
     background: #5BF585;
 }
 
-.input-white-button-login-1 {
+.input-white-box-login-1 {
     width: 585px;
     height: 210px;
     border-radius: 100px 10px 100px 50px;
     background: #FFF;
 }
 
-.input-white-button-login-2 {
+.input-white-box-login-2 {
     width: 585px;
     height: 210px;
     border-radius: 100px 10px 100px 50px;
     background: #FFF;
 }
 
-.input-shadow-button-login-1 {
+.shadow-box-login-1 {
     width: 585px;
     height: 210px;
     border-radius: 100px 10px 100px 50px;
     background: #3FE489;
 }
 
-.input-shadow-button-login-2 {
+.shadow-box-login-2 {
     width: 585px;
     height: 210px;
     border-radius: 100px 10px 100px 50px;
     background: #3FE489;
 }
 
-.input-shadow-button-login-3 {
+.shadow-box-login-3 {
     width: 585px;
     height: 210px;
     border-radius: 100px 10px 100px 50px;
