@@ -1,0 +1,56 @@
+Objetos y cantidad de objetos de datos:
+
+.BG {
+    width: 1080px;
+    height: 1960px;
+    background: #7AFF85;
+}
+
+.SubBg {
+    width: 990px;
+    height: 1540px;
+    border-radius: 40px;
+    background: #5BF585;
+}
+
+.input-white-box {
+    width: 813px;
+    height: 150px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.input-white-box-2 {
+    width: 813px;
+    height: 150px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.input-white-box-3 {
+    width: 813px;
+    height: 150px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.white-button {
+    width: 363px;
+    height: 196px;
+    border-radius: 100px 10px 100px 50px;
+    background: #FFF;
+}
+
+.shadow-w-button {
+    width: 363px;
+    height: 196px;
+    border-radius: 100px 10px 100px 50px;
+    background: #3FE489;
+}
+
+.logo {
+    width: 600px;
+    height: 600px;
+    border-radius: 1000px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
