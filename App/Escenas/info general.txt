@@ -1,0 +1,3 @@
+En la carpeta módulos están todas las fotos 
+va a haber una carpeta llamada objetos con absolutamente todos los objetos y su descripción
+va a haber una carpeta de escenas con la info de cada escena, cuales objetos contiene y foto de la escena
