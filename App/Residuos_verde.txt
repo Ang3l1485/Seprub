@@ -1,15 +1,7 @@
 Residuos caneca verde;
-papel carbón;
-papel mantequilla; 
-papel aluminio; 
-papel higiénico; 
-papel de cocina; 
-papel celofán;
-pañuelos; 
-toallas higiénicas; 
-servilletas utilizadas;
-plastificados; 
-metalizados; 
-icopor;
-chicles;
-residuos de barridos;
+Restos de comida;
+Residuos de corte de césped;
+Residuos de poda de jardín;p
+Restos de café;
+Carbón;
+Cáscara de huevo;
