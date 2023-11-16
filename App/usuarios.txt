@@ -1,7 +1,0 @@
-Nombre; Apellidos;	Id; Correo; 
-Sara;	Lopez Marin;	10001;	s@gmail.com;
-Miguel;	Ortiz;	10002;	m@gmail.com;
-Martin;	Valencia;	10003;	mv@gmail.com;
-Pepito;	Perez;	10004;	p@gmail.com;
-Juanito; Suarez;	10005;	j@gmail.com;
-			
