@@ -1,14 +1,24 @@
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.EventQueue;
+import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 //import javax.swing.SwingUtilities;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+
 
 public class Lims extends JFrame {
+    private JPanel panelMensajeBienvenida;
     private Usuario rUsuario;
     private ConsultaUsuario cUsuario;
     private Deposito verDeposito;
@@ -18,6 +28,16 @@ public class Lims extends JFrame {
 
     public Lims() {
         initAppUI();
+        // Create the welcome panel
+        crearPanelMensajeBienvenida();
+
+        // Show the welcome message as a popup
+        JOptionPane.showMessageDialog(
+            this,
+            panelMensajeBienvenida,
+            "Bienvenida ",
+            JOptionPane.INFORMATION_MESSAGE
+        );
     }
 
     private void initAppUI() {
@@ -30,6 +50,19 @@ public class Lims extends JFrame {
         java.awt.Image icono = Toolkit.getDefaultToolkit().getImage(pathImages+"lims.png");
         setIconImage(icono);        
 
+    }
+
+    private void crearPanelMensajeBienvenida() {
+        panelMensajeBienvenida = new JPanel();
+        panelMensajeBienvenida.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
+        panelMensajeBienvenida.setBackground(Color.WHITE);
+        panelMensajeBienvenida.setPreferredSize(new Dimension(500, 100));
+
+        JLabel mensajeBienvenida = new JLabel("Bienvenido a ¡LIMS!");
+        mensajeBienvenida.setHorizontalAlignment(SwingConstants.CENTER);
+        mensajeBienvenida.setVerticalAlignment(SwingConstants.CENTER);
+        mensajeBienvenida.setFont(new Font("Arial", Font.BOLD, 30));
+        panelMensajeBienvenida.add(mensajeBienvenida);
     }
 
     private void createMenuBar() {
