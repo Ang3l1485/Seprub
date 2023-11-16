@@ -1,0 +1,6 @@
+tipoID;numeroID;nombre;cuidad;direccion;estado
+CEDULA;123;LUIS ;Medellin;calle 12;ACTIVO
+CEDULA;456;MARIANA ;Envigado;calle 14;ACTIVO
+CEDULA;789;SARA LOPEZ;Itagui;calle 16;ACTIVO
+CEDULA;987;MARTIN;Envigado;CALLE 18;ACTIVO
+CEDULA;;Hola;Medellín;Calle 13;ACTIVO
